@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list"/>
+		<Node name="data">
+			<Node name="children">
+				<Node name="{6c6981fb-1c59-4bd3-9c52-12b04738038a}">
+					<Node name="children">
+						<Node name="{d25fe02e-5837-42cf-a423-d34600095d55}">
+							<Node name="children">
+								<Node name="{4d0c519d-7384-47a6-bff5-4aead1cee455}">
+									<Node name="children">
+										<Node name="{0193abee-fdf3-4ac0-9903-d146f62a31df}">
+											<Node name="children"/>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="23"/>
+													<Prp name="name" type="S" value="NativeClrObject.Name"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="ButtonCancel"/>
+										</Node>
+										<Node name="{1777b5b0-e225-4d8c-90b8-0dd5a0075755}">
+											<Node name="children"/>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="22"/>
+													<Prp name="name" type="S" value="NativeClrObject.Name"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="ButtonOK"/>
+										</Node>
+										<Node name="{41678c90-e935-4f6a-9002-cd1c2ca865a5}">
+											<Node name="children">
+												<Node name="{069a199e-344c-4ad4-8215-f62a654f9977}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="20"/>
+															<Prp name="name" type="S" value="NativeClrObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="ProductNames"/>
+												</Node>
+												<Node name="{0957ee2d-3721-4d3b-a4b7-3d182fdbb289}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="13"/>
+															<Prp name="name" type="S" value="NativeClrObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="City"/>
+												</Node>
+												<Node name="{10db49e2-e6b4-4d1d-9a0a-b8d3a271f1d6}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="17"/>
+															<Prp name="name" type="S" value="NativeClrObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="ExpDate"/>
+												</Node>
+												<Node name="{20818223-2ebb-460c-a5eb-cc03ff5f2c78}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="14"/>
+															<Prp name="name" type="S" value="NativeClrObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="State"/>
+												</Node>
+												<Node name="{22bc5d67-e649-45a6-8106-6cabbf946a91}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="16"/>
+															<Prp name="name" type="S" value="NativeClrObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="CardNo"/>
+												</Node>
+												<Node name="{2bc193d9-634c-4f84-bf92-4a0632b4a854}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="8"/>
+															<Prp name="name" type="S" value="NativeClrObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="Discount"/>
+												</Node>
+												<Node name="{58271941-96f7-45c7-aeef-97c483078b17}">
+													<Node name="children">
+														<Node name="{29397e2d-310d-4a18-a3ac-bd42e20eee70}">
+															<Node name="children"/>
+															<Node name="properties">
+																<Node name="property0">
+																	<Prp name="cookie" type="I" value="6"/>
+																	<Prp name="name" type="S" value="ClrFullClassName"/>
+																</Node>
+															</Node>
+															<Prp name="name" type="S" value="UpDownEdit"/>
+														</Node>
+													</Node>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="5"/>
+															<Prp name="name" type="S" value="NativeClrObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="Quantity"/>
+												</Node>
+												<Node name="{5dce1273-8140-40a6-a1cc-a82872ca3b1a}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="19"/>
+															<Prp name="name" type="S" value="NativeClrObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="Date"/>
+												</Node>
+												<Node name="{768c3569-47c7-4b7b-9b57-90f205c40d9e}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="11"/>
+															<Prp name="name" type="S" value="NativeClrObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="Customer"/>
+												</Node>
+												<Node name="{7e754796-2d61-4882-a827-189425d5aee0}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="21"/>
+															<Prp name="name" type="S" value="NativeClrObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="AE"/>
+												</Node>
+												<Node name="{98a17ec9-623d-43f4-a524-f8d4170ab40e}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="15"/>
+															<Prp name="name" type="S" value="NativeClrObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="Zip"/>
+												</Node>
+												<Node name="{ab292527-cfa6-4f61-8d0d-ca7c832afe77}">
+													<Node name="children">
+														<Node name="{03558b6d-7272-4d33-a75c-b51d7e294bd9}">
+															<Node name="children"/>
+															<Node name="properties">
+																<Node name="property0">
+																	<Prp name="cookie" type="I" value="10"/>
+																	<Prp name="name" type="S" value="NativeClrObject.Name"/>
+																</Node>
+															</Node>
+															<Prp name="name" type="S" value="Total"/>
+														</Node>
+													</Node>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="9"/>
+															<Prp name="name" type="S" value="NativeClrObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="groupBox1"/>
+												</Node>
+												<Node name="{c339ead4-6cf2-4d01-a375-e4aa187f52aa}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="7"/>
+															<Prp name="name" type="S" value="NativeClrObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="Price"/>
+												</Node>
+												<Node name="{e1362dfd-0f04-465d-ad4e-bb130efcc3a0}">
+													<Node name="children"/>
+													<Node name="properties">
+														<Node name="property0">
+															<Prp name="cookie" type="I" value="12"/>
+															<Prp name="name" type="S" value="NativeClrObject.Name"/>
+														</Node>
+													</Node>
+													<Prp name="name" type="S" value="Street"/>
+												</Node>
+											</Node>
+											<Node name="properties">
+												<Node name="property0">
+													<Prp name="cookie" type="I" value="4"/>
+													<Prp name="name" type="S" value="NativeClrObject.Name"/>
+												</Node>
+											</Node>
+											<Prp name="name" type="S" value="Group"/>
+										</Node>
+									</Node>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="3"/>
+											<Prp name="name" type="S" value="NativeClrObject.Name"/>
+										</Node>
+									</Node>
+									<Prp name="name" type="S" value="OrderForm"/>
+								</Node>
+								<Node name="{a1255931-cf3b-4dbd-9b72-9a459496792c}">
+									<Node name="children"/>
+									<Node name="properties">
+										<Node name="property0">
+											<Prp name="cookie" type="I" value="18"/>
+											<Prp name="name" type="S" value="NativeClrObject.Name"/>
+										</Node>
+									</Node>
+									<Prp name="name" type="S" value="MainForm"/>
+								</Node>
+							</Node>
+							<Node name="properties">
+								<Node name="property0">
+									<Prp name="cookie" type="I" value="2"/>
+									<Prp name="name" type="S" value="ProcessName"/>
+								</Node>
+							</Node>
+							<Prp name="name" type="S" value="Orders"/>
+						</Node>
+					</Node>
+					<Node name="properties">
+						<Node name="property0">
+							<Prp name="cookie" type="I" value="0"/>
+							<Prp name="name" type="S" value="Name"/>
+						</Node>
+						<Node name="property1">
+							<Prp name="cookie" type="I" value="1"/>
+							<Prp name="name" type="S" value="Id"/>
+						</Node>
+					</Node>
+					<Prp name="name" type="S" value="Sys"/>
+				</Node>
+			</Node>
+			<Node name="logical nodes">
+				<Node name="orders">
+					<Node name="mainform">
+						<Prp name="name" type="S" value="MainForm"/>
+						<Prp name="owner" type="S" value="{A1255931-CF3B-4DBD-9B72-9A459496792C}"/>
+					</Node>
+					<Node name="orderform">
+						<Node name="buttoncancel">
+							<Prp name="name" type="S" value="ButtonCancel"/>
+							<Prp name="owner" type="S" value="{0193ABEE-FDF3-4AC0-9903-D146F62A31DF}"/>
+						</Node>
+						<Node name="buttonok">
+							<Prp name="name" type="S" value="ButtonOK"/>
+							<Prp name="owner" type="S" value="{1777B5B0-E225-4D8C-90B8-0DD5A0075755}"/>
+						</Node>
+						<Node name="group">
+							<Node name="ae">
+								<Prp name="name" type="S" value="AE"/>
+								<Prp name="owner" type="S" value="{7E754796-2D61-4882-A827-189425D5AEE0}"/>
+							</Node>
+							<Node name="cardno">
+								<Prp name="name" type="S" value="CardNo"/>
+								<Prp name="owner" type="S" value="{22BC5D67-E649-45A6-8106-6CABBF946A91}"/>
+							</Node>
+							<Node name="city">
+								<Prp name="name" type="S" value="City"/>
+								<Prp name="owner" type="S" value="{0957EE2D-3721-4D3B-A4B7-3D182FDBB289}"/>
+							</Node>
+							<Node name="customer">
+								<Prp name="name" type="S" value="Customer"/>
+								<Prp name="owner" type="S" value="{768C3569-47C7-4B7B-9B57-90F205C40D9E}"/>
+							</Node>
+							<Node name="date">
+								<Prp name="name" type="S" value="Date"/>
+								<Prp name="owner" type="S" value="{5DCE1273-8140-40A6-A1CC-A82872CA3B1A}"/>
+							</Node>
+							<Node name="discount">
+								<Prp name="name" type="S" value="Discount"/>
+								<Prp name="owner" type="S" value="{2BC193D9-634C-4F84-BF92-4A0632B4A854}"/>
+							</Node>
+							<Node name="expdate">
+								<Prp name="name" type="S" value="ExpDate"/>
+								<Prp name="owner" type="S" value="{10DB49E2-E6B4-4D1D-9A0A-B8D3A271F1D6}"/>
+							</Node>
+							<Node name="groupbox1">
+								<Node name="total">
+									<Prp name="name" type="S" value="Total"/>
+									<Prp name="owner" type="S" value="{03558B6D-7272-4D33-A75C-B51D7E294BD9}"/>
+								</Node>
+								<Prp name="name" type="S" value="groupBox1"/>
+								<Prp name="owner" type="S" value="{AB292527-CFA6-4F61-8D0D-CA7C832AFE77}"/>
+							</Node>
+							<Node name="price">
+								<Prp name="name" type="S" value="Price"/>
+								<Prp name="owner" type="S" value="{C339EAD4-6CF2-4D01-A375-E4AA187F52AA}"/>
+							</Node>
+							<Node name="productnames">
+								<Prp name="name" type="S" value="ProductNames"/>
+								<Prp name="owner" type="S" value="{069A199E-344C-4AD4-8215-F62A654F9977}"/>
+							</Node>
+							<Node name="quantity">
+								<Node name="updownedit">
+									<Prp name="name" type="S" value="UpDownEdit"/>
+									<Prp name="owner" type="S" value="{29397E2D-310D-4A18-A3AC-BD42E20EEE70}"/>
+								</Node>
+								<Prp name="name" type="S" value="Quantity"/>
+								<Prp name="owner" type="S" value="{58271941-96F7-45C7-AEEF-97C483078B17}"/>
+							</Node>
+							<Node name="state">
+								<Prp name="name" type="S" value="State"/>
+								<Prp name="owner" type="S" value="{20818223-2EBB-460C-A5EB-CC03FF5F2C78}"/>
+							</Node>
+							<Node name="street">
+								<Prp name="name" type="S" value="Street"/>
+								<Prp name="owner" type="S" value="{E1362DFD-0F04-465D-AD4E-BB130EFCC3A0}"/>
+							</Node>
+							<Node name="zip">
+								<Prp name="name" type="S" value="Zip"/>
+								<Prp name="owner" type="S" value="{98A17EC9-623D-43F4-A524-F8D4170AB40E}"/>
+							</Node>
+							<Prp name="name" type="S" value="Group"/>
+							<Prp name="owner" type="S" value="{41678C90-E935-4F6A-9002-CD1C2CA865A5}"/>
+						</Node>
+						<Prp name="name" type="S" value="OrderForm"/>
+						<Prp name="owner" type="S" value="{4D0C519D-7384-47A6-BFF5-4AEAD1CEE455}"/>
+					</Node>
+					<Prp name="name" type="S" value="Orders"/>
+					<Prp name="owner" type="S" value="{D25FE02E-5837-42CF-A423-D34600095D55}"/>
+				</Node>
+				<Prp name="name" type="S" value="Aliases"/>
+				<Prp name="owner" type="S" value="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}"/>
+			</Node>
+			<Node name="properties"/>
+			<Node name="storages">
+				<Node name="child0">
+					<Node name="property0">
+						<Prp name="cookie" type="I" value="0"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Sys"/>
+					</Node>
+					<Node name="property1">
+						<Prp name="cookie" type="I" value="1"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="0"/>
+						<Prp name="value" type="I" value="-1"/>
+					</Node>
+					<Node name="property10">
+						<Prp name="cookie" type="I" value="10"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Total"/>
+					</Node>
+					<Node name="property11">
+						<Prp name="cookie" type="I" value="11"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Customer"/>
+					</Node>
+					<Node name="property12">
+						<Prp name="cookie" type="I" value="12"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Street"/>
+					</Node>
+					<Node name="property13">
+						<Prp name="cookie" type="I" value="13"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="City"/>
+					</Node>
+					<Node name="property14">
+						<Prp name="cookie" type="I" value="14"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="State"/>
+					</Node>
+					<Node name="property15">
+						<Prp name="cookie" type="I" value="15"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Zip"/>
+					</Node>
+					<Node name="property16">
+						<Prp name="cookie" type="I" value="16"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="CardNo"/>
+					</Node>
+					<Node name="property17">
+						<Prp name="cookie" type="I" value="17"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="ExpDate"/>
+					</Node>
+					<Node name="property18">
+						<Prp name="cookie" type="I" value="18"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="MainForm"/>
+					</Node>
+					<Node name="property19">
+						<Prp name="cookie" type="I" value="19"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Date"/>
+					</Node>
+					<Node name="property2">
+						<Prp name="cookie" type="I" value="2"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Orders"/>
+					</Node>
+					<Node name="property20">
+						<Prp name="cookie" type="I" value="20"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="ProductNames"/>
+					</Node>
+					<Node name="property21">
+						<Prp name="cookie" type="I" value="21"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="AE"/>
+					</Node>
+					<Node name="property22">
+						<Prp name="cookie" type="I" value="22"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="ButtonOK"/>
+					</Node>
+					<Node name="property23">
+						<Prp name="cookie" type="I" value="23"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="ButtonCancel"/>
+					</Node>
+					<Node name="property3">
+						<Prp name="cookie" type="I" value="3"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="OrderForm"/>
+					</Node>
+					<Node name="property4">
+						<Prp name="cookie" type="I" value="4"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Group"/>
+					</Node>
+					<Node name="property5">
+						<Prp name="cookie" type="I" value="5"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Quantity"/>
+					</Node>
+					<Node name="property6">
+						<Prp name="cookie" type="I" value="6"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="System.Windows.Forms.UpDownBase+UpDownEdit"/>
+					</Node>
+					<Node name="property7">
+						<Prp name="cookie" type="I" value="7"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Price"/>
+					</Node>
+					<Node name="property8">
+						<Prp name="cookie" type="I" value="8"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="Discount"/>
+					</Node>
+					<Node name="property9">
+						<Prp name="cookie" type="I" value="9"/>
+						<Prp name="local variable" type="S" value=""/>
+						<Prp name="property type" type="I" value="0"/>
+						<Prp name="type" type="I" value="5"/>
+						<Prp name="value" type="S" value="groupBox1"/>
+					</Node>
+					<Prp name="name" type="S" value="Default Configuration"/>
+				</Node>
+				<Prp name="current" type="I" value="0"/>
+			</Node>
+			<Node name="typeinfo"/>
+			<Prp name="cookie" type="I" value="24"/>
+			<Prp name="name" type="S" value="NameMapping"/>
+			<Prp name="version" type="I" value="3"/>
+		</Node>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="settings">
+			<Prp name="settingsversion" type="S" value="7.50"/>
+		</Node>
+		<Prp name="signature" type="S" value="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>
