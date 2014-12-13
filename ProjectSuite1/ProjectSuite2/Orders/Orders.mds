@@ -1502,7 +1502,7 @@
 					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="0"/>
 					<Prp name="index" type="I" value="1"/>
-					<Prp name="key" type="S" value="{C2A85576-FE4E-43D8-B29B-29FD114A389F}"/>
+					<Prp name="key" type="S" value="{984702F5-EFD1-4C1B-8073-B9D4C380BB73}"/>
 					<Prp name="name" type="S" value="ProjectTestItem2"/>
 					<Prp name="stoponerror" type="I" value="0"/>
 					<Prp name="stoponexception" type="I" value="0"/>
@@ -1517,8 +1517,38 @@
 					<Prp name="enabled" type="B" value="-1"/>
 					<Prp name="group" type="B" value="0"/>
 					<Prp name="index" type="I" value="2"/>
-					<Prp name="key" type="S" value="{D45E9BFF-39B3-4B1F-80E5-107D1C3FE320}"/>
+					<Prp name="key" type="S" value="{E4171780-5C56-43D9-BB25-24E51DDF00C4}"/>
 					<Prp name="name" type="S" value="ProjectTestItem3"/>
+					<Prp name="stoponerror" type="I" value="0"/>
+					<Prp name="stoponexception" type="I" value="0"/>
+					<Prp name="test moniker" type="S" value="{59BAC9D2-2A95-49C7-9BD0-8F37ED570FB8}EditOrder"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000003">
+					<Node name="child list"/>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="0"/>
+					<Prp name="index" type="I" value="3"/>
+					<Prp name="key" type="S" value="{E2C6F045-3548-477D-8B43-29154FDBCA09}"/>
+					<Prp name="name" type="S" value="ProjectTestItem4"/>
+					<Prp name="stoponerror" type="I" value="0"/>
+					<Prp name="stoponexception" type="I" value="0"/>
+					<Prp name="test moniker" type="S" value="{59BAC9D2-2A95-49C7-9BD0-8F37ED570FB8}DeleteOrders"/>
+					<Prp name="timeout" type="I" value="0"/>
+				</Node>
+				<Node name="item0000000004">
+					<Node name="child list"/>
+					<Node name="test parameters"/>
+					<Prp name="count" type="I" value="1"/>
+					<Prp name="description" type="S" value=""/>
+					<Prp name="enabled" type="B" value="-1"/>
+					<Prp name="group" type="B" value="0"/>
+					<Prp name="index" type="I" value="4"/>
+					<Prp name="key" type="S" value="{B19BFE26-E34C-43A0-B20D-737D640ECBB3}"/>
+					<Prp name="name" type="S" value="ProjectTestItem5"/>
 					<Prp name="stoponerror" type="I" value="0"/>
 					<Prp name="stoponexception" type="I" value="0"/>
 					<Prp name="test moniker" type="S" value="{59BAC9D2-2A95-49C7-9BD0-8F37ED570FB8}Close"/>
